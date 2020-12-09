@@ -1,0 +1,145 @@
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(90deg,#c68c53, #ffccff);
+
+}
+
+header{   
+    position: fixed;
+    overflow: hidden;
+    background:linear-gradient(90deg,#CCFFFF,#FFCCCC);
+    display:block;
+    height: 80px;
+    width: 100%;
+    margin: 0;
+    z-index: 2;
+  
+}
+nav{
+    margin: 0;
+    padding: 0;
+}
+
+a:link, a:visited {
+        
+        color: white;
+        padding: 14px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+}
+
+   
+
+.ert:hover{
+    
+    background-color: #c68c53;
+}
+
+.hov:hover{
+    background-color:rgb(226, 209, 209);
+    cursor: pointer!important;
+    transform:scale(1.1);
+}
+
+
+
+
+.cen{
+    padding:0 100px 15px 70px;
+    margin: 0 50px 0 50px;
+ 
+}
+img{
+    content: cover;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.f{
+    
+    display: inline-block;
+    
+    
+    
+}
+
+.f:last-child,img{
+    float: right;
+  
+  
+ 
+}
+
+.w1{
+    margin: auto;
+    width: auto;
+    height: 500px;
+    background-color: gray;
+    background-image: url("https://images.pexels.com/photos/4173624/pexels-photo-4173624.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: 100%;
+   
+  
+}
+
+.wew{
+    position: relative;
+    opacity:0.5;
+    font-family: 'Lobster', cursive;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    color:linear-gradient(90deg,#CCFFFF,#FFCCCC);
+    font-size: 42px;
+    z-index: 1;
+    
+}
+
+
+.w2, .w3{
+    margin:5% 10% 0px 10%;
+    font-size: 20px;
+    font-family: 'Xanh Mono', monospace;
+   
+}
+p{
+    font-size: 20px;
+    font-family: 'Xanh Mono', monospace;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
+   
+}
+.lob{
+    font-family: 'Lobster', cursive;
+    background:repeating-linear-gradient(70deg,yellow 0px, yellow 40px,black 40, black 80px);
+    opacity:0.6;
+
+    
+
+}
+
+
+h1{
+    text-align: center;
+    font-size: 42px;
+}
+
+
+footer{
+    margin: auto;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+
+
+
+
+
