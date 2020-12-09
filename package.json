@@ -1,0 +1,22 @@
+{
+  "name": "clone2",
+  "version": "1.0.0",
+  "description": "this is test in node and Git",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/migueljamin-dev/online-testing.git"
+  },
+  "author": "miguel jamin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/migueljamin-dev/online-testing/issues"
+  },
+  "homepage": "https://github.com/migueljamin-dev/online-testing#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
